@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vh;
+  color: #c0a5c2;
+}
+
+.blueText{
+  color: lightblue;
+}
+
+body{
+  background-color: #3448ba;
+}
