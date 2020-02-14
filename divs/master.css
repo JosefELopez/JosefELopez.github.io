@@ -1,0 +1,90 @@
+body{
+  /* background: red; */
+  background-image: url(pex.jpeg);
+  background-size: cover;
+  /* COVER DOESNT MAKE THE IMAGE REPEAT */
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+#blue {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+#container {
+  position: relative;
+  width: 800px;
+  height: 90vh;
+  background: pink;
+  margin: auto;
+  margin-top: 10vh;
+  overflow: auto;
+}
+
+#navBar{
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 100px;
+  background: #a0a865;
+}
+
+h1{
+  color: white;
+  font-size: 80%;
+}
+
+.button{
+  float: left;
+  width: 120px;
+  height: 60px;
+  background: #043e5b;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.article{
+  width: 280px;
+  height: 280px;
+  background: #ffae00;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.article img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.article p {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+
+.title{
+  width: 80%;
+  height: 20px;
+  margin-left: 10%;
+  margin-top: 10px;
+  background: blue;
+}
+
+.button:hover{
+  opacity: 8%;
+
+}
