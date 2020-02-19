@@ -1,0 +1,37 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vh;
+  color: #c0a5c2;
+}
+
+.blueText{
+  color: lightblue;
+}
+
+body{
+  background-color: #3448ba;
+}
+
+.box{
+  margin: 50px;
+  background: blue;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  border-style: dashed;
+  border-width: 10px;
+}
+
+.widthBox{
+  width: 70%;
+  margin: auto;
+  height: 300px;
+  background: red;
+}
+
+.smallBox{
+  width: 70%;
+  height: 100px;
+  background: purple;
+  margin: auto;
+}
