@@ -1,0 +1,35 @@
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3vh;
+  color: #fbccc7;
+}
+
+body{
+  background-color: #b0cbea;
+}
+
+#fullport {
+  position: absolute;
+  top: 100px;
+  left: 168px;
+}
+
+#homenavBar{
+  width: 600px;
+  margin-top: 10px;
+  margin: auto;
+  position: absolute;
+  top: 10px;
+  height: 200px;
+  left: 168px;
+  text-align: center;
+}
+
+.button{
+  float: left;
+  width: 160px;
+  height: 50px;
+  background: #6986b3;
+  text-align: left;
+  margin-top: 10px;
+}
