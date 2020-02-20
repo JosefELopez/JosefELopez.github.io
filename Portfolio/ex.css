@@ -5,13 +5,13 @@ h2 {
 }
 
 body{
-  background-color: #7856a4;
+  background-color: purple;
 }
 
 #time {
   position: absolute;
   top: 500px;
-  left: 168px;
+  left: 100px;
 }
 
 #homenavBar{
