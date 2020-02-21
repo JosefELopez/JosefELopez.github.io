@@ -4,14 +4,20 @@ h2 {
   color: #fbccc7;
 }
 
+h3 {
+  font-family: 'Roboto', ;
+  font-size: 2vh;
+  color: #6986b3;
+}
+
 body{
   background-color: purple;
 }
 
 #time {
   position: absolute;
-  top: 500px;
-  left: 100px;
+  top: 45%;
+  left: 10%;
 }
 
 #homenavBar{
@@ -32,4 +38,93 @@ body{
   background: #6986b3;
   text-align: left;
   margin-top: 10px;
+}
+
+#three {
+  position: relative;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 10%;
+  left: 10%;
+  border-radius: 10px;
+}
+
+#four {
+  position: absolute;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 68.5%;
+  left: 18.25%;
+  border-radius: 10px;
+}
+
+#five {
+  position: relative;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 10%;
+  left: 27.5%;
+  border-radius: 10px;
+}
+
+#six {
+  position: absolute;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 68.5%;
+  left: 35.5%;
+  border-radius: 10px;
+}
+
+#seven {
+  position: relative;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 10%;
+  left: 44.5%;
+  border-radius: 10px;
+}
+
+#eight {
+  position: absolute;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 68.5%;
+  left: 52.5%;
+  border-radius: 10px;
+}
+
+#nine {
+  position: relative;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 10%;
+  left: 61.5%;
+  border-radius: 10px;
+}
+
+#zero {
+  position: absolute;
+  background-color: #fbccc7;
+  width: 225px;
+  height: 225px;
+  top: 68.5%;
+  left: 69.5%;
+  border-radius: 10px;
+}
+
+.top {
+  margin-top: 75px;
+  width: 1500px;
+  height: 250px;
+  background-color: blue;
+  float: left;
+  overflow: hidden;
 }
