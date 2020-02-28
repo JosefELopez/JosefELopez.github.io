@@ -11,7 +11,7 @@ h3 {
 }
 
 body{
-  background-color: purple;
+  background-color: #7856a4;
 }
 
 #time {
@@ -43,89 +43,109 @@ body{
 #three {
   position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 10%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 10%; */
   /* left: 10%; */
   border-radius: 10px;
 }
 
 #four {
-  position: absolute;
+  position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 68.5%;
-  left: 18.25%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 10%; */
+  /* left: 18.25%; */
   border-radius: 10px;
 }
 
 #five {
   position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 10%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 10%; */
   left: 2.5%;
   border-radius: 10px;
 }
 
 #six {
-  position: absolute;
+  position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 68.5%;
-  left: 35.5%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 68.5%; */
+  left: 2.5%;
   border-radius: 10px;
 }
 
 #seven {
   position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 10%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 10%; */
   left: 5%;
   border-radius: 10px;
 }
 
 #eight {
-  position: absolute;
+  position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 68.5%;
-  left: 52.5%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 68.5%; */
+  left: 5%;
   border-radius: 10px;
 }
 
 #nine {
   position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 10%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 10%; */
   left: 7.5%;
   border-radius: 10px;
 }
 
 #zero {
-  position: absolute;
+  position: relative;
   background-color: #fbccc7;
-  width: 225px;
-  height: 225px;
-  top: 68.5%;
-  left: 69.5%;
+  width: 205px;
+  height: 205px;
+  padding: 10px;
+  /* top: 68.5%; */
+  left: 7.5%;
   border-radius: 10px;
 }
 
 .top {
-  margin-top: 75px;
-  align-self: auto;
+  margin-top: 6.5%;
   width: 975px;
-  height: 250px;
-  background-color: blue;
+  height: 225px;
+  margin-left: 10%;
+  /* background-color: blue; */
+  float: left;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+}
+
+.bottom {
+  margin-top: 12.5%;
+  width: 975px;
+  height: 225px;
+  margin-left: 20%;
+  /* background-color: blue; */
   float: left;
   overflow: hidden;
   display: flex;
