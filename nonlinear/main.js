@@ -1,3 +1,15 @@
+let img= document.querySelector('img');
+let btn1= document.querySelector('#btn1');
+let btn2= document.querySelector('#btn2');
+
+btn1.addEventListener('click', () => {
+  img.src = 'ii.png';
+})
+
+btn2.addEventListener('click', () => {
+  img.src = 'iie.png';
+})
+
 // $(document).ready(function() {
 
   // var image1=new Image()
@@ -40,14 +52,14 @@
 
 
 
-var image_tracker= "f";
-function changeStyle() {
-  var image=document.getElementById("home").src="ex.png";
-  if(image_tracker=f){
-    image.src="home.png";
-    image_tracker="t";
-  }else{
-    image.src="ex.png";
-    image_tracker="f";
-  }
-}
+// var image_tracker= "f";
+// function changeStyle() {
+//   var image=document.getElementById("home").src="ex.png";
+//   if(image_tracker=f){
+//     image.src="home.png";
+//     image_tracker="t";
+//   }else{
+//     image.src="ex.png";
+//     image_tracker="f";
+//   }
+// }

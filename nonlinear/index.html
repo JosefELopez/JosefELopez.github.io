@@ -7,22 +7,28 @@
   </head>
   <body>
 
-    <div id="main">
+    <div>
+      <button class="buttonlight" id="btn1" onclick="document.getElementById('myImage').src='ii.png'">Light</button>
+      <button class="buttondark" id="btn2" onclick="document.getElementById('myImage').src='iie.png'">Dark</button>
+    </div>
+
+    <img id="myImage" src="start.png" alt="">
+
+    <!-- <div id="main">
       <img src="home.png" id="home" style="width:100%;" usemap="#map">
-      <map name="map"> -->
-        <!-- <area shape="circle" coords="160,120,100" onclick="changeStyle()"> -->
+      <map name="map">
         <area shape="circle" coords="160,120,100" onclick="changeStyle()">
       </map>
-      <div>
+      <div> -->
+
         <!-- <img src="ex.png" id="ex" style="width:100%;" usemap="#map">
         <map name="map">
-          <!-- <area shape="circle" coords="160,120,100" onclick="changeStyle()"> -->
-          <!-- <area shape="circle" coords="100,100,100" onclick="changeStyle()">
+          <area shape="circle" coords="100,100,100" onclick="changeStyle()">
         </map>
-      <!-- </div> -->
-    <!-- </div>
+      </div>
+    </div>
 
-    <!-- <div class="w3-content w3-display-container">
+    <div class="w3-content w3-display-container">
       <img class="mySlides" src="home.png" style="width:100%">
       <img class="mySlides" src="ex.png" style="width:100%">
       <img class="mySlides" src="start.png" style="width:100%">
