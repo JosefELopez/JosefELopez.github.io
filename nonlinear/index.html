@@ -6,14 +6,124 @@
     <link rel="stylesheet" href="master.css">
   </head>
   <body>
-
-    <div>
-      <button class="buttonlight" id="btn1" onclick="document.getElementById('myImage').src='ii.png'">Light</button>
-      <button class="buttondark" id="btn2" onclick="document.getElementById('myImage').src='iie.png'">Dark</button>
+    <div id="photo1" onclick="stackToTop(photo1)">
+      <div class="hub">
+        <button class="buttonlight" id="btn14" onclick="document.getElementById('myImage').src='ex.png'">Start</button>
+        <!-- <button class="buttonlight" id="btn14" onclick="myFunction()">Start</button> -->
+      </div>
+      <img id="myImage" src="home.png" alt="">
     </div>
 
-    <img id="myImage" src="start.png" alt="">
+    <div id="photo2" onclick="stackToTop(photo2)">
+      <div class="hub">
+        <button class="buttonlight" id="btn15" onclick="document.getElementById('myImage').src='start.png'">Next</button>
+      </div>
+      <img id="myImage" src="ex.png" alt="">
+    </div>
 
+    <div id="photo3" onclick="stackToTop(photo3)">
+      <div class="hub">
+        <button class="buttonlight" id="btn1" onclick="document.getElementById('myImage').src='ii.png'">Light</button>
+        <button class="buttondark" id="btn2" onclick="document.getElementById('myImage').src='iie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="start.png" alt="">
+    </div>
+
+<!-- light -->
+    <div id="photo4" onclick="stackToTop(photo4)">
+      <div class="hub">
+        <button class="buttonlight" id="btn3" onclick="document.getElementById('myImage').src='iii.png'">Light</button>
+        <button class="buttondark" id="btn4" onclick="document.getElementById('myImage').src='iiie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="ii.png" alt="">
+    </div>
+
+    <div id="photo5" onclick="stackToTop(photo5)">
+      <div class="hub">
+        <button class="buttonlight" id="btn5" onclick="document.getElementById('myImage').src='iv.png'">Light</button>
+        <button class="buttondark" id="btn6" onclick="document.getElementById('myImage').src='ive.png'">Dark</button>
+      </div>
+      <img id="myImage" src="iii.png" alt="">
+    </div>
+
+    <div id="photo6" onclick="stackToTop(photo6)">
+      <div class="hub">
+        <button class="buttonlight" id="btn7" onclick="document.getElementById('myImage').src='v.png'">Light</button>
+        <button class="buttondark" id="btn8" onclick="document.getElementById('myImage').src='ve.png'">Dark</button>
+      </div>
+      <img id="myImage" src="iv.png" alt="">
+    </div>
+
+    <div id="photo7" onclick="stackToTop(photo7)">
+      <div class="hub">
+        <button class="buttonlight" id="btn9" onclick="document.getElementById('myImage').src='vi.png'">Light</button>
+        <button class="buttondark" id="btn10" onclick="document.getElementById('myImage').src='vie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="v.png" alt="">
+    </div>
+
+    <div id="photo8" onclick="stackToTop(photo8)">
+      <div class="hub">
+        <button class="buttonlight" id="btn11" onclick="document.getElementById('myImage').src='vii.png'">Light</button>
+        <button class="buttondark" id="btn12" onclick="document.getElementById('myImage').src='viie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="vi.png" alt="">
+    </div>
+
+    <div id="photo9" onclick="stackToTop(photo9)">
+      <div class="hub">
+        <button class="buttonlight" id="btn13" onclick="document.getElementById('myImage').src='home.png'">Home</button>
+      </div>
+      <img id="myImage" src="vii.png" alt="">
+    </div>
+
+<!-- dark -->
+    <div id="photo10" onclick="stackToTop(photo10)">
+      <div class="hub">
+        <button class="buttonlight" id="btn3" onclick="document.getElementById('myImage').src='iii.png'">Light</button>
+        <button class="buttondark" id="btn4" onclick="document.getElementById('myImage').src='iiie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="iie.png" alt="">
+    </div>
+
+    <div id="photo11" onclick="stackToTop(photo11)">
+      <div class="hub">
+        <button class="buttonlight" id="btn5" onclick="document.getElementById('myImage').src='iv.png'">Light</button>
+        <button class="buttondark" id="btn6" onclick="document.getElementById('myImage').src='ive.png'">Dark</button>
+      </div>
+      <img id="myImage" src="iiie.png" alt="">
+    </div>
+
+    <div id="photo12" onclick="stackToTop(photo12)">
+      <div class="hub">
+        <button class="buttonlight" id="btn7" onclick="document.getElementById('myImage').src='v.png'">Light</button>
+        <button class="buttondark" id="btn8" onclick="document.getElementById('myImage').src='ve.png'">Dark</button>
+      </div>
+      <img id="myImage" src="ive.png" alt="">
+    </div>
+
+    <div id="photo13" onclick="stackToTop(photo13)">
+      <div class="hub">
+        <button class="buttonlight" id="btn9" onclick="document.getElementById('myImage').src='vi.png'">Light</button>
+        <button class="buttondark" id="btn10" onclick="document.getElementById('myImage').src='vie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="ve.png" alt="">
+    </div>
+
+    <div id="photo14" onclick="stackToTop(photo14)">
+      <div class="hub">
+        <button class="buttonlight" id="btn11" onclick="document.getElementById('myImage').src='vii.png'">Light</button>
+        <button class="buttondark" id="btn12" onclick="document.getElementById('myImage').src='viie.png'">Dark</button>
+      </div>
+      <img id="myImage" src="vie.png" alt="">
+    </div>
+
+    <div id="photo15" onclick="stackToTop(photo15)">
+      <div class="hub">
+        <button class="buttonlight" id="btn13" onclick="document.getElementById('myImage').src='home.png'">Home</button>
+      </div>
+      <img id="myImage" src="viie.png" alt="">
+    </div>
     <!-- <div id="main">
       <img src="home.png" id="home" style="width:100%;" usemap="#map">
       <map name="map">
