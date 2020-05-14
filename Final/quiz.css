@@ -1,0 +1,129 @@
+body{
+	background-image: url('leaf.png');
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+h1{
+	text-align: center;
+	color: #047C3E;
+	background-color: #F2B705;
+	border-radius: 8px;
+	padding: 30px;
+	width: 500px;
+	margin: 50px auto;
+	border-radius: 25px 5px;
+  box-shadow: 7px 5px #047C3E;
+}
+
+.quiz_wrapper{
+	height: 500px;
+	width: 1050px;
+	background-color: #F2B705;
+	margin:50px auto;
+	border: 15px;
+	padding: 30px;
+	border-style: solid;
+  border-color: coral;
+	border-radius: 50px 10px;
+  box-shadow: 15px 10px #047C3E;
+}
+
+.quiz_wrapper .question{
+	padding: 15px;
+	background-color:#047C3E;
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 100%;
+
+}
+.quiz_wrapper .options{
+	float: left;
+	width: 100%;
+}
+
+.quiz_wrapper .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+	display: inline-block;
+	background-color:#62C85F;
+	width: 49%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color:white;
+	box-shadow: 0px 3px 0px #047C3E;
+	outline: none;
+	text-align: center;
+}
+.quiz_wrapper .options ul li:active{
+	box-shadow: 0px 3px 0px transparent;
+
+}
+.quiz_wrapper .options ul li.correct{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_wrapper .options ul li.wrong{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_wrapper .score{
+	float: left;
+	margin: auto;
+	width: 60%;
+	padding:25px 0px;
+}
+
+.quiz_wrapper .score .next{
+	width: 40%;
+	float: left;
+}
+.quiz_wrapper .score .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color:#ff9800;
+	border:none;
+	border-radius:8px;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #c97a06;
+	outline: none;
+}
+.quiz_wrapper .score .next button:active{
+box-shadow: 0px 3px 0px transparent;
+}
+
+.quiz_wrapper .score .score-card{
+	width: 60%;
+	float: left;
+}
+.quiz_wrapper .score .score-card{
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.quiz_wrapper .score .score-card span{
+	background-color: #ff9800;
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#ffffff;
+
+}

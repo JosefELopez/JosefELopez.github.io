@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function (){
+
+      var audio = document.getElementById("myAudio");
+
+      $("#play").click(function (){
+        audio.play();
+      });
+
+      $("#pause").click(function (){
+        audio.src + "type.mp3";
+        audio.play;
+      });
+    });
+
+    </script>
+  </head>
+
+  <body>
+
+    <audio id="myAudio" controls>
+      <source id="source" src="Funkytown.mp3" type="audio/ogg">
+    </audio>
+
+    <h1 id="play">Enter</h1>
+    <h1 id="pause">Change</h1>
+  </body>
+</html>
