@@ -1,11 +1,4 @@
 $(document).ready(function() {
-// function myFunction() {
-//   document.getElementById(photoid).style.zIndex = "-1";
-// }
-
-// function myFunction() {
-//   document.getElementsByClassName(photoid).style.zIndex = "-1";
-// }
 
 function stackToTop(photoid) {
   var photo = document.getElementById(photoid).style;
@@ -16,16 +9,6 @@ function stackToBottom(photoid) {
   var photo = document.getElementById(photoid).style;
   photo.zIndex="0"
 }
-
-// function stackToTop(photoid) {
-//   var photo = document.getElementsByClassName(photoid).style;
-//   photo.zIndex="25"
-// }
-//
-// function stackToBottom(photoid) {
-//   var photo = document.getElementsByClassName(photoid).style;
-//   photo.zIndex="0"
-// }
 
 let btn12= document.querySelector('#btn14');
 let btn13= document.querySelector('#btn15');
@@ -155,56 +138,3 @@ btn23.addEventListener('click', () => {
 btn24.addEventListener('click', () => {
   img.src = 'home.png';
 })
-// $(document).ready(function() {
-
-  // var image1=new Image()
-  // image1.src="home.png"
-  // var image2=new Image()
-  // image2.src="ex.png"
-  // var image3=new Image()
-  // image3.src="start.png"
-  // var image4=new Image()
-  // image4.src="ii.png"
-  // var image5=new Image()
-  // image5.src="iii.png"
-  // function changeStyle() {
-  // document.getElementById("home").src="ex.png";
-  // }
-
-  // function changeStyle() {
-  //
-  // document.getElementById("home").src="ex.png";
-  //
-  // }
-
-  // var slideIndex = 1;
-  // showDivs(slideIndex);
-  //
-  // function plusDivs(n) {
-  //   showDivs(slideIndex += n);
-  // }
-  //
-  // function showDivs(n) {
-  //   var i;
-  //   var x = document.getElementsByClassName("mySlides");
-  //   if (n > x.length) {slideIndex = 1}
-  //   if (n < 1) {slideIndex = x.length}
-  //   for (i = 0; i < x.length; i++) {
-  //     x[i].style.display = "none";
-  //   }
-  //   x[slideIndex-1].style.display = "block";
-  // }
-
-
-
-// var image_tracker= "f";
-// function changeStyle() {
-//   var image=document.getElementById("home").src="ex.png";
-//   if(image_tracker=f){
-//     image.src="home.png";
-//     image_tracker="t";
-//   }else{
-//     image.src="ex.png";
-//     image_tracker="f";
-//   }
-// }
