@@ -20,23 +20,23 @@
     questions:[
       {q:'When do you start your days during the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
 
-      {q:'which of the following tag is used to mark a begining of paragraph ?',options:['TD','br','P','tr'],answer:3},
+      {q:'When do you go to sleep?',options:['Before midnight', 'Around 2 am', 'Before the sun sets', 'When the birds wake up in the morning!'],answer:1},
 
-      {q:'Correct HTML tag for the largest heading is ?',options:['h4','h1','h8','h9'],answer:2},
+      {q:'Have you been exercising?',options:['Yes absolutely!','No I still do not have time to exercise','Yeah somewhat here and there','No exercise is not in my blood'],answer:1},
 
-      {q:'When do you start yo pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'What do you usually watch?', options:['My YouTube subscriptions', 'The birds and the passerby outside my window', 'News', 'Anything that is trending!'],answer:1},
 
-      {q:'When do you start your da the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'What do you usually do to relax?', options:['Eat!', 'Exercise!', 'Sleep!', 'Play video games!'],answer:1},
 
-      {q:'When do you start g the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'What do you do during your free time?', options:['Try to find ways of how I can help get things back to normal!', 'Spend time with my family!', 'Spend time with myself to collect my thoughts :)', 'Free time?'],answer:1},
 
-      {q:'When do you  during the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'What kind of humor do you enjoy?', options:['Topical', 'Observational', 'Dark', 'Cringe'],answer:1},
 
-      {q:'When do you start ing the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'At the beginning of this pandemic did you freakout?', options:['Yes, I was worried about my future', 'No, I thought this was going to go away quickly', 'Yes, I was stocking up on supplies!', 'No, I did not believe there was a pandemic approaching'],answer:1},
 
-      {q:'When do you start the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'Do you think this pandemic has made you more hygenic?', options:['Yes, I have been washing my hands for longer!', 'No, I was pretty clean before this happened', 'No, I am at home so why should it really matter?', 'Hygiene?'],answer:1},
 
-      {q:'When do you start your days during the pandemic?', options:['Wake up at my usual time', 'Wake up around noon', 'Wake up when the moon is out', 'Time is not relevant'],answer:1},
+      {q:'Finally do you think this lockdown is worth it?', options:['Yes, we need to keep care of everyone!', 'No, I had so many things planned for 2020!', 'Yes, because now I can relax!', 'No, because I do not believe Corona is dangerous!'],answer:1},
 
                           ],
                 index:0,
@@ -51,7 +51,7 @@
                         }
                         else{
 
-                        quizBox.innerHTML="Review your sanity below!!! In addition, here are some recommendations to keep that sanity high!!"
+                        quizBox.innerHTML="Review your sanity below!!! A sanity below 5 needs to be worked on a bit :)"
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";
